@@ -11,7 +11,7 @@ export default function Movies({title, popularity, release_date, image}) {
             <strong><p className="popularity">Popularity</p></strong>
             <p>{popularity}</p>
             <strong><p className="date">Release Date</p></strong>
-            <p>{release_date.split('/').reverse().join()}</p>
+            <p>{release_date}</p>
             <button></button>
         </div>
     )
